@@ -1,0 +1,4 @@
+{
+    "storage": "memory", 
+    "file_path": "games.json"
+}

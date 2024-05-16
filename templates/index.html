@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shishima Game</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="container">
+        <h1>Welcome to Shishima Game</h1>
+        <div id="game-mode">
+            <button id="human-vs-human">Human vs Human</button>
+            <button id="human-vs-ai">Human vs AI</button>
+        </div>
+        <div id="game" style="display: none;">
+            <div id="current-player">Game started!</div>
+            <div id="board" class="circle-board"></div>
+            <button id="reset-game">Reset Game</button>
+            <button id="load-from-file">Load from file</button>
+            <button id="load-from-memory">Load from memory</button>
+            <button id="save-game">Save game</button>
+            <!--<div id="debug-board"></div>-->
+            <div id="message" class="message">Game started!</div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

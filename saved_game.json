@@ -1,0 +1,1 @@
+{"game_id": "Player1", "player1": "Player1", "player2": "Player2", "board": [[null, "Player2", null], ["Player1", "Player1", "Player1"], ["Player2", null, "Player2"]], "current_player": "Player1", "setup_phase": false, "player_positions": {"Player1": [[1, 2], [1, 0], [1, 1]], "Player2": [[2, 0], [2, 2], [0, 1]]}, "setup_completed": {"Player1": true, "Player2": true}}
